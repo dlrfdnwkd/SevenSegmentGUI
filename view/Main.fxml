@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Button fx:id="buttonA" layoutX="71.0" layoutY="292.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="20.0" />
+      <Button fx:id="buttonE" layoutX="91.0" layoutY="422.0" maxHeight="20.0" minHeight="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="55.0" />
+      <Button fx:id="buttonF" layoutX="71.0" layoutY="367.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="20.0" />
+      <Button fx:id="buttonD" layoutX="145.0" layoutY="367.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="20.0" />
+      <Button fx:id="buttonC" layoutX="145.0" layoutY="292.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="20.0" />
+      <Button fx:id="buttonG" layoutX="91.0" layoutY="347.0" maxHeight="20.0" minHeight="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="55.0" />
+      <Button fx:id="buttonB" layoutX="91.0" layoutY="272.0" maxHeight="20.0" minHeight="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="55.0" />
+      <TextField fx:id="txtA" layoutX="76.0" layoutY="122.0" prefHeight="23.0" prefWidth="30.0" />
+      <TextField fx:id="txtB" layoutX="160.0" layoutY="122.0" prefWidth="30.0" />
+      <TextField fx:id="txtC" layoutX="246.0" layoutY="122.0" prefWidth="30.0" />
+      <TextField fx:id="txtD" layoutX="325.0" layoutY="122.0" prefWidth="30.0" />
+      <Label layoutX="45.0" layoutY="126.0" text="A :" />
+      <Label layoutX="130.0" layoutY="126.0" text="B :" />
+      <Label layoutX="215.0" layoutY="126.0" text="C :" />
+      <Label layoutX="294.0" layoutY="126.0" text="D :" />
+      <Button layoutX="177.0" layoutY="194.0" mnemonicParsing="false" onAction="#confirm" text="입력" AnchorPane.leftAnchor="177.0" AnchorPane.rightAnchor="167.0" />
+      <Pane layoutX="55.0" layoutY="-2.0" prefHeight="76.0" prefWidth="400.0" style="-fx-background-color: #00D8FF;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="127.0" layoutY="18.0" prefHeight="41.0" prefWidth="146.0" text="7-Segment" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="249.0" layoutY="260.0" text="a :" AnchorPane.bottomAnchor="225.0" AnchorPane.rightAnchor="136.0" />
+      <Label layoutX="248.0" layoutY="290.0" text="b :" AnchorPane.bottomAnchor="195.0" AnchorPane.rightAnchor="136.0" />
+      <Label layoutX="250.0" layoutY="320.0" text="c :" AnchorPane.bottomAnchor="165.0" AnchorPane.rightAnchor="136.0" />
+      <Label layoutX="248.0" layoutY="350.0" text="d :" AnchorPane.bottomAnchor="135.0" AnchorPane.rightAnchor="136.0" />
+      <Label layoutX="249.0" layoutY="380.0" text="e :" AnchorPane.bottomAnchor="105.0" AnchorPane.rightAnchor="136.0" />
+      <Label layoutX="251.0" layoutY="410.0" text="f :" AnchorPane.bottomAnchor="75.0" AnchorPane.rightAnchor="136.0" />
+      <Label layoutX="248.0" layoutY="440.0" text="g :" AnchorPane.bottomAnchor="45.0" AnchorPane.rightAnchor="136.0" />
+      <Label fx:id="labelA" layoutX="282.0" layoutY="260.0" text="null" AnchorPane.rightAnchor="96.0" />
+      <Label fx:id="labelB" layoutX="282.0" layoutY="290.0" text="null" AnchorPane.rightAnchor="96.0" />
+      <Label fx:id="labelC" layoutX="282.0" layoutY="320.0" text="null" AnchorPane.rightAnchor="96.0" />
+      <Label fx:id="labelD" layoutX="282.0" layoutY="350.0" text="null" AnchorPane.rightAnchor="96.0" />
+      <Label fx:id="labelE" layoutX="282.0" layoutY="380.0" text="null" AnchorPane.rightAnchor="96.0" />
+      <Label fx:id="labelF" layoutX="282.0" layoutY="410.0" text="null" AnchorPane.rightAnchor="96.0" />
+      <Label fx:id="labelG" layoutX="282.0" layoutY="440.0" text="null" AnchorPane.rightAnchor="96.0" />
+   </children>
+</AnchorPane>
